@@ -15,4 +15,4 @@ class DDE(Checks):
 	@check("compiles")
 	def test_base_case(self):
 		"""input from example provided in problem description provides correct output"""
-		self.spawn("./greedy").stdin("2\n", "the cat chased the rat while\n", "the dog chased the cat into the rat house\n").stdout("\n", "the cat chased 1 rat while\n", "1 dog 3 1 2 into 1 4 house\n").exit(0)
+		self.spawn("./dde").stdin("2\n", "the cat chased the rat while\n", "the dog chased the cat into the rat house\n").stdout("\n", "the cat chased 1 rat while\n", "1 dog 3 1 2 into 1 4 house\n").exit(0)
