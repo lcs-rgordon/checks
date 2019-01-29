@@ -1,6 +1,6 @@
 from check50 import *
 
-class PartnerUp(Checks):
+class Frequency(Checks):
 
 	@check()
 	def exists(self):
